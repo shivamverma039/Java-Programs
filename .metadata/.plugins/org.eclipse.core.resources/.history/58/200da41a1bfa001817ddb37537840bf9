@@ -1,0 +1,28 @@
+package pen;
+
+public class Pen 
+{
+	
+	int y=20;
+	int fun()
+	{
+		int x=10;
+		System.out.println(x);
+		System.out.println(y);
+		return x;
+	}
+	int fun1()
+	{
+		int z=12;
+		System.out.println(z);
+		System.out.println(y);
+		return z;
+	}
+	public static void main(String[] args)
+	{
+		Pen p=new Pen();
+		System.out.println(p.fun());
+		System.out.println(p.fun1());
+	}
+}
+
